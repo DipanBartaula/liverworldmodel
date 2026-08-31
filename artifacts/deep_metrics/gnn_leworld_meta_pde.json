@@ -1,0 +1,114 @@
+{
+  "model": "gnn_leworld_meta_pde",
+  "params": 24732,
+  "scale": 1.4531249999030837,
+  "epochs": 15,
+  "accuracy": {
+    "K12": {
+      "ratchet": 0.06591996550559998,
+      "fast": 0.2026728093624115,
+      "all": 0.1172022894024849
+    },
+    "K24": {
+      "ratchet": 0.05359094589948654,
+      "fast": 0.20697787404060364,
+      "all": 0.11111104488372803
+    },
+    "K36": {
+      "ratchet": 0.048144515603780746,
+      "fast": 0.21009944379329681,
+      "all": 0.10887761414051056
+    },
+    "noise_floor": {
+      "ratchet": 0.019346343353390694,
+      "fast": 0.1296788603067398
+    }
+  },
+  "susc_strata": {
+    "slow": 0.043612461537122726,
+    "med": 0.04549895226955414,
+    "fast": 0.07163313031196594
+  },
+  "constraints": {
+    "violation_rate": 0.0,
+    "violations": 0,
+    "MVR": 0.0
+  },
+  "invariance": {
+    "untrained_violation_rate": 0.0,
+    "violations": 0
+  },
+  "ood_probes": {
+    "held_out_susc": 0.15339180827140808,
+    "unseen_udca": 0.06242818757891655,
+    "longer_in": 0.05958752706646919,
+    "longer_beyond": 0.21378925442695618
+  },
+  "eff_rank": {
+    "model": 4.775032997131348,
+    "data_intrinsic": 2.8365440368652344
+  },
+  "clinical": {
+    "decomp": {
+      "recall": 0.0,
+      "missed": 140,
+      "timing_err_med": null,
+      "timing_bias_mean": null,
+      "false_alarm": 0.0
+    },
+    "cirrhosis": {
+      "recall": 0.0,
+      "missed": 61,
+      "timing_err_med": null,
+      "timing_bias_mean": null,
+      "false_alarm": 0.0
+    },
+    "cirrhosis_cls": {
+      "auc": 0.9421286761677239,
+      "precision": 0.0,
+      "recall": 0.0,
+      "prevalence": 0.07117852975495916
+    }
+  },
+  "distribution": {
+    "w1_finalF": 0.09549973160028458,
+    "w1_finalM": 0.052133847028017044,
+    "event_rate_cirrhosis_pred": 0.002333722287047841,
+    "event_rate_cirrhosis_true": 0.07117852975495916,
+    "dtw_ratchet": 0.19880700215697286,
+    "c_index_cirrhosis": 0.9789473684210527
+  },
+  "flatline": {
+    "model": 0.05359094589948654,
+    "persist_last": 0.08374995738267899,
+    "predict_mean": 0.13255104422569275
+  },
+  "ercp": {
+    "ercp_events": 523,
+    "step_down_caught": "433/523",
+    "mean_dS_pred": -0.14649158716201782,
+    "mean_dS_true": -0.14600683748722076
+  },
+  "noise_robustness": {
+    "sigma_0.0": 0.05359094589948654,
+    "sigma_0.05": 0.06536582857370377,
+    "sigma_0.1": 0.08738783746957779,
+    "sigma_0.15": 0.10870610922574997
+  },
+  "staleness": {
+    "K24": 0.05359094589948654,
+    "K18": 0.06307011097669601,
+    "K12": 0.07432092726230621,
+    "K9": 0.08156128972768784
+  },
+  "calibration": {
+    "coverage90_ratchet": 0.8960372960372961,
+    "coverage90_all": 0.8988761238761238
+  },
+  "manifold_critic": {
+    "critic_auc_real_vs_corrupt": 0.9967930757327301,
+    "score_real_transitions": 0.7427698373794556,
+    "score_model_rollout": 0.6621283292770386
+  },
+  "tail_recall": "N/A (deterministic point model; needs a sampling distribution)"
+}

@@ -1,0 +1,24 @@
+{
+  "ratchet_mae": 0.03812745586037636,
+  "fast_mae": 0.14714683592319489,
+  "all_mae": 0.07900971919298172,
+  "persist_ratchet_mae": 0.08374995738267899,
+  "constraint_violations": 0,
+  "constraint_rate": 0.0,
+  "probes": {
+    "held_out_susc": 0.132614403963089,
+    "unseen_udca": 0.04807339236140251
+  },
+  "latent_eff_rank": 8.176980018615723,
+  "data_eff_rank": 2.8365440368652344,
+  "h_in": 0.04334935173392296,
+  "h_beyond": 0.12528550624847412,
+  "model": "ada_jepa",
+  "family": "ada_jepa",
+  "target": 41703,
+  "params": 39089,
+  "scale": 0.6931818181325797,
+  "epochs": 15,
+  "noise_floor_ratchet": 0.019346343353390694,
+  "noise_floor_fast": 0.1296788603067398
+}

@@ -1,0 +1,23 @@
+{
+  "ratchet_mae": 0.06067652627825737,
+  "fast_mae": 0.20522001385688782,
+  "all_mae": 0.11488033086061478,
+  "persist_ratchet_mae": 0.08374995738267899,
+  "constraint_violations": 0,
+  "constraint_rate": 0.0,
+  "probes": {
+    "held_out_susc": 0.14825746417045593,
+    "unseen_udca": 0.08780992031097412
+  },
+  "data_eff_rank": 2.8365440368652344,
+  "h_in": 0.07522371411323547,
+  "h_beyond": 0.22180074453353882,
+  "model": "gnn_leworld_meta_pde",
+  "family": "neural_pde",
+  "target": 41703,
+  "params": 41843,
+  "scale": 1.9218750003099556,
+  "epochs": 15,
+  "noise_floor_ratchet": 0.019346343353390694,
+  "noise_floor_fast": 0.1296788603067398
+}

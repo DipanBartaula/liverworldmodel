@@ -1,0 +1,23 @@
+{
+  "ratchet_mae": 0.03215654566884041,
+  "fast_mae": 0.12286866456270218,
+  "all_mae": 0.06617359071969986,
+  "persist_ratchet_mae": 0.08374995738267899,
+  "constraint_violations": 0,
+  "constraint_rate": 0.0,
+  "probes": {
+    "held_out_susc": 0.12171894311904907,
+    "unseen_udca": 0.04307934641838074
+  },
+  "data_eff_rank": 2.8365440368652344,
+  "h_in": 0.037936657667160034,
+  "h_beyond": 0.13583289086818695,
+  "model": "simple_transformer",
+  "family": "transformer",
+  "target": 250000,
+  "params": 251977,
+  "scale": 1.914062500152213,
+  "epochs": 15,
+  "noise_floor_ratchet": 0.019346343353390694,
+  "noise_floor_fast": 0.1296788603067398
+}

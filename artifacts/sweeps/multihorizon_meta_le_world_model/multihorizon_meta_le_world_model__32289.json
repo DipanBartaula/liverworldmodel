@@ -1,0 +1,23 @@
+{
+  "ratchet_mae": 0.02939249575138092,
+  "fast_mae": 0.1410278081893921,
+  "all_mae": 0.07125574350357056,
+  "persist_ratchet_mae": 0.08374995738267899,
+  "constraint_violations": 0,
+  "constraint_rate": 0.0,
+  "probes": {
+    "held_out_susc": 0.08584976196289062,
+    "unseen_udca": 0.04025914892554283
+  },
+  "data_eff_rank": 2.8365440368652344,
+  "h_in": 0.03627945855259895,
+  "h_beyond": 0.1062002182006836,
+  "model": "multihorizon_meta_le_world_model",
+  "family": "multi_horizon",
+  "target": 32289,
+  "params": 31971,
+  "scale": 0.8359374999828286,
+  "epochs": 15,
+  "noise_floor_ratchet": 0.019346343353390694,
+  "noise_floor_fast": 0.1296788603067398
+}

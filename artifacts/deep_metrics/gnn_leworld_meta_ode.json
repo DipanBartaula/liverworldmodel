@@ -1,0 +1,114 @@
+{
+  "model": "gnn_leworld_meta_ode",
+  "params": 114975,
+  "scale": 3.270833333242626,
+  "epochs": 15,
+  "accuracy": {
+    "K12": {
+      "ratchet": 0.033178068697452545,
+      "fast": 0.13331300020217896,
+      "all": 0.07072866708040237
+    },
+    "K24": {
+      "ratchet": 0.0243082158267498,
+      "fast": 0.13265947997570038,
+      "all": 0.0649399384856224
+    },
+    "K36": {
+      "ratchet": 0.020188914611935616,
+      "fast": 0.13891535997390747,
+      "all": 0.06471133977174759
+    },
+    "noise_floor": {
+      "ratchet": 0.019346343353390694,
+      "fast": 0.1296788603067398
+    }
+  },
+  "susc_strata": {
+    "slow": 0.015339972451329231,
+    "med": 0.019814584404230118,
+    "fast": 0.03775438293814659
+  },
+  "constraints": {
+    "violation_rate": 0.0,
+    "violations": 0,
+    "MVR": 0.0
+  },
+  "invariance": {
+    "untrained_violation_rate": 0.0,
+    "violations": 0
+  },
+  "ood_probes": {
+    "held_out_susc": 0.12076087296009064,
+    "unseen_udca": 0.031532254070043564,
+    "longer_in": 0.029779212549328804,
+    "longer_beyond": 0.08536738902330399
+  },
+  "eff_rank": {
+    "model": 2.7710633277893066,
+    "data_intrinsic": 2.8365440368652344
+  },
+  "clinical": {
+    "decomp": {
+      "recall": 0.4,
+      "missed": 84,
+      "timing_err_med": 7.0,
+      "timing_bias_mean": 6.964285714285714,
+      "false_alarm": 0.001394700139470014
+    },
+    "cirrhosis": {
+      "recall": 0.29508196721311475,
+      "missed": 43,
+      "timing_err_med": 5.5,
+      "timing_bias_mean": 7.722222222222222,
+      "false_alarm": 0.0
+    },
+    "cirrhosis_cls": {
+      "auc": 0.9819589752038883,
+      "precision": 1.0,
+      "recall": 0.29508196721311475,
+      "prevalence": 0.07117852975495916
+    }
+  },
+  "distribution": {
+    "w1_finalF": 0.024461187422275543,
+    "w1_finalM": 0.0037622146774083376,
+    "event_rate_cirrhosis_pred": 0.042007001166861145,
+    "event_rate_cirrhosis_true": 0.07117852975495916,
+    "dtw_ratchet": 0.08298002630472183,
+    "c_index_cirrhosis": 0.9789473684210527
+  },
+  "flatline": {
+    "model": 0.0243082158267498,
+    "persist_last": 0.08374995738267899,
+    "predict_mean": 0.13255104422569275
+  },
+  "ercp": {
+    "ercp_events": 523,
+    "step_down_caught": "494/523",
+    "mean_dS_pred": -0.1436735987663269,
+    "mean_dS_true": -0.14600683748722076
+  },
+  "noise_robustness": {
+    "sigma_0.0": 0.0243082158267498,
+    "sigma_0.05": 0.04506942629814148,
+    "sigma_0.1": 0.0720168873667717,
+    "sigma_0.15": 0.09936778992414474
+  },
+  "staleness": {
+    "K24": 0.0243082158267498,
+    "K18": 0.030874136835336685,
+    "K12": 0.04013889655470848,
+    "K9": 0.04743160307407379
+  },
+  "calibration": {
+    "coverage90_ratchet": 0.8945987345987346,
+    "coverage90_all": 0.8985098235098234
+  },
+  "manifold_critic": {
+    "critic_auc_real_vs_corrupt": 0.9832734202977904,
+    "score_real_transitions": 0.6666024923324585,
+    "score_model_rollout": 0.6677995920181274
+  },
+  "tail_recall": "N/A (deterministic point model; needs a sampling distribution)"
+}

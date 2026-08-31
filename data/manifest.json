@@ -1,0 +1,15 @@
+{
+  "description": "Synthetic datasets packaged for the selected-eight evaluation harness.",
+  "files": [
+    {
+      "name": "liver_data.csv",
+      "bytes": 125394429,
+      "sha256": "f537adae5ee0c83f804535a98163a9bd3b3604e642c4236985a24e43d8c1236e"
+    },
+    {
+      "name": "liver_data_long.csv",
+      "bytes": 19835740,
+      "sha256": "6de04f81a4fc004a6586f2894000c0267a2299f37ddf9fb7fcbde7763d84e5ff"
+    }
+  ]
+}

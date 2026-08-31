@@ -1,0 +1,23 @@
+{
+  "ratchet_mae": 0.024885891005396843,
+  "fast_mae": 0.13949818909168243,
+  "all_mae": 0.06786549836397171,
+  "persist_ratchet_mae": 0.08374995738267899,
+  "constraint_violations": 0,
+  "constraint_rate": 0.0,
+  "probes": {
+    "held_out_susc": 0.0971159040927887,
+    "unseen_udca": 0.03476862609386444
+  },
+  "data_eff_rank": 2.8365440368652344,
+  "h_in": 0.031134257093071938,
+  "h_beyond": 0.09511680155992508,
+  "model": "gnn_leworld_meta_ode",
+  "family": "leworld_ode",
+  "target": 69564,
+  "params": 71066,
+  "scale": 2.520833333427727,
+  "epochs": 15,
+  "noise_floor_ratchet": 0.019346343353390694,
+  "noise_floor_fast": 0.1296788603067398
+}

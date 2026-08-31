@@ -1,0 +1,8 @@
+# Runtime outputs: source, data manifest, artifacts, and report visuals stay versioned.
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+checkpoints/
+outputs/
+*.log

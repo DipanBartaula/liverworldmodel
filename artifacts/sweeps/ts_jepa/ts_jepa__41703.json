@@ -1,0 +1,24 @@
+{
+  "ratchet_mae": 0.035235658288002014,
+  "fast_mae": 0.14255587756633759,
+  "all_mae": 0.07548074424266815,
+  "persist_ratchet_mae": 0.08374995738267899,
+  "constraint_violations": 0,
+  "constraint_rate": 0.0,
+  "probes": {
+    "held_out_susc": 0.13931971788406372,
+    "unseen_udca": 0.04707792028784752
+  },
+  "latent_eff_rank": 6.984455108642578,
+  "data_eff_rank": 2.8365440368652344,
+  "h_in": 0.042738765478134155,
+  "h_beyond": 0.12763434648513794,
+  "model": "ts_jepa",
+  "family": "jepa_latent",
+  "target": 41703,
+  "params": 33581,
+  "scale": 0.6145833332595068,
+  "epochs": 15,
+  "noise_floor_ratchet": 0.019346343353390694,
+  "noise_floor_fast": 0.1296788603067398
+}
